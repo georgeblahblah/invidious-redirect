@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Invidious Redirect",
+    "version": "0.1",
+  
+    "description": "Redirects from YouTube to Invidious",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+
+    "permissions": ["webRequest", "webRequestBlocking", "webNavigation", "*://*.youtube.com/watch*"],
+  
+    "background": {
+        "scripts": ["invidious_redir.js"]
+    }
+  }
+  
